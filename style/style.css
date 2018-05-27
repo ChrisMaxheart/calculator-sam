@@ -1,0 +1,108 @@
+html {
+  font-family: "Montserrat";
+  /*height: 100vh;*/
+}
+
+body {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  height: 80vh;
+  width: 100%;
+  background-color: rgba(186,228,253, 0.6);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+
+.welcome {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.author {
+  font-size: 28px;
+}
+
+.main {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr 2fr;
+}
+
+.first.part, .second.part {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.third.part {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 3fr 2fr;
+}
+
+.left.part {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+}
+
+.subfirst.part {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.subsecond.part {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+.right.part {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.subright.part {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+}
+
+.button, .clear, .decimal, .equal, .undo {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.screen {
+  background-color: rgba(152,159,141,0.5);
+  font-weight: bold;
+}
+
+.operator {
+  background-color: rgb(221,122,57);
+}
+
+.commands {
+  background-color: rgb(111,99,173);
+}
+
+.num {
+  background-color: rgb(72,71,76);
+}
