@@ -93,6 +93,16 @@ button:hover {
 .screen {
   background-color: rgba(152,159,141,0.5);
   font-weight: bold;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  font-size: 150px;
+  vertical-align: bottom;
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: text-bottom;
+  line-height: 1em;
+  bottom: 0;
+  padding-top: 50px;
 }
 
 .operator {
@@ -105,4 +115,12 @@ button:hover {
 
 .num {
   background-color: rgb(72,71,76);
+}
+
+.display {
+  padding: 0 0 0 0;
+  bottom: 0;
+  height: 100%;
+  /*vertical-align: bottom;*/
+  vertical-align: text-bottom;
 }
